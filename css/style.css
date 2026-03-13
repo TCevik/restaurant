@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+@media (min-width:577px) and (max-width:981px){
+header{
+    background-color: #000000;
+    height:175px;
+    width:auto;
+    display:flex;
+    flex-direction:row;
+}
+
+header .burger{
+    overflow:hidden;
+    background-color:#000000;
+    margin:auto;
+}
+
+header .burger #HamburgerMenu{
+    display:none;
+} 
+
+header a{
+    display:flex;
+    flex-direction:column;
+    text-decoration:none;
+    color:#ffffff;
+    border:6px solid #e75c1e;
+    align-items:center;
+    font-size:2.4em;
+    text-align:center;
+    justify-content:space-between;
+    margin:auto;
+}
+
+.burgerBar{
+    display:grid;
+    grid-template-columns: 4em;
+    width:75px;
+    height:60px;
+}
+
+.top-bar{
+    background-color: #ffffff;
+    margin-bottom:12px;
+}
+
+.middle-bar{
+    background-color: #ffffff;
+}
+
+.bottom-bar{
+    background-color: #ffffff;
+    margin-top:12px;
+}
+
+header a.icon{
+    display:block;
+}
+
+header a:hover{
+    background-color:#e75c1e;
+    color:#000000;
+    border:6px solid #8f2c00;
+}
+
+header img{
+    width:200px;
+    height:auto;
+    margin-right:7.5em;
+}
+
+footer{
+    /* background-color:#000000; */
+    height:175px;
+    width:auto;
+    display:flex;
+    flex-direction:row;
+}
+
+footer p{
+    color:#ffffff;
+    margin:auto;
+    padding: 20px;
+}
+
+.knop{
+    color:#ffffff;;
+    border:6px solid #e75c1e;
+    text-align:center;
+    font-size:2em;
+    background-color:#000000;
+    padding:9px;
+    margin-top:1.5em;
+}
+
+.knop:hover{
+    background-color: #e75c1e;
+    color:#000000;
+    border:6px solid #8f2c00;
+}
+}
