@@ -1,0 +1,190 @@
+/* Auteur: Tamer Çevik
+  CSS voor Vlam en Vlees 
+  Mobile-first opzet
+*/
+
+/* Kleuren uit het visual design */
+:root {
+    --accent-color: #E75C1E; /* Oranje voor borders etc. */
+    --main-color: #8F2C00;   /* Bruin voor artikelen */
+    --body-bg: #ffffff;      /* Wit voor de achtergrond */
+    --header-footer: #000000;/* Zwart voor header en footer */
+    --text-color: #333333;   /* Standaard tekstkleur */
+}
+
+/* Variabelen voor de toegankelijkheid (Light/Dark modus & Hoog Contrast) */
+.dark-mode {
+    --body-bg: #222222;
+    --text-color: #ffffff;
+    --main-color: #5c1c00; 
+}
+
+.high-contrast {
+    --accent-color: #ffff00;
+    --main-color: #000000;
+    --body-bg: #ffffff;
+    --text-color: #000000;
+    --header-footer: #000000;
+}
+.high-contrast article {
+    border: 5px solid #000000;
+}
+
+/* Lettertypes inladen (Google Fonts) */
+@import url('https://fonts.googleapis.com/css2?family=Average+Sans&family=Azeret+Mono:wght@400;700&display=swap');
+
+/* Basis instellingen (Mobile First) */
+body {
+    /* Op mobiel is het lettertype Azeret Mono volgens het ontwerp */
+    font-family: 'Azeret Mono', monospace; 
+    background-color: var(--body-bg);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    display: flex; /* Flexbox om de footer onderaan te houden */
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Media query voor Tablet en Desktop */
+@media (min-width: 768px) {
+    body {
+        /* Op desktop is het lettertype Average Sans volgens het ontwerp */
+        font-family: 'Average Sans', sans-serif; 
+    }
+}
+
+/* Grote tekst modus voor toegankelijkheid */
+.large-text {
+    font-size: 1.5rem;
+}
+
+/* Eigen idee: links duidelijk markeren */
+.highlight-links a {
+    background-color: yellow;
+    color: black !important;
+    text-decoration: underline;
+    font-weight: bold;
+    padding: 2px 5px;
+}
+
+/* ----- HEADER EN FOOTER (FLEXBOX) ----- */
+header, footer {
+    background-color: var(--header-footer);
+    color: #ffffff;
+    padding: 15px 20px;
+}
+
+header {
+    display: flex;
+    flex-direction: column; /* Op mobiel onder elkaar */
+    align-items: center;
+    text-align: center;
+}
+
+header img {
+    max-width: 150px;
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap; /* Zorgt dat het netjes op de volgende regel gaat als het niet past */
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: var(--accent-color);
+}
+
+@media (min-width: 768px) {
+    header {
+        flex-direction: row; /* Op desktop naast elkaar */
+        justify-content: space-between;
+    }
+    nav ul {
+        margin-top: 0;
+    }
+}
+
+/* ----- MAIN CONTENT (CSS GRID) ----- */
+main {
+    flex: 1; /* Neemt de overgebleven ruimte in */
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr; /* 1 kolom op mobiel */
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto; /* Centreer de content */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+    main {
+        grid-template-columns: 1fr 1fr; /* 2 kolommen op tablet en desktop */
+    }
+}
+
+/* ----- SEMANTISCHE ELEMENTEN ----- */
+article {
+    background-color: var(--main-color);
+    color: #ffffff;
+    padding: 20px;
+    border: 4px solid var(--accent-color); /* Accentkleur als border volgens afbeelding */
+    border-radius: 8px;
+}
+
+/* Zorg dat afbeeldingen responsive zijn */
+article img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+/* Formulieren en knoppen */
+button, input[type="submit"] {
+    background-color: var(--accent-color);
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #ffffff;
+    color: var(--accent-color);
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Toegankelijkheids menu bovenaan */
+.accessibility-panel {
+    grid-column: 1 / -1; /* Neemt de hele breedte in beslag */
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 15px;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    text-align: center;
+}
