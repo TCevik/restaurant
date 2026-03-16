@@ -11,6 +11,16 @@
     </div>
 </section>
 
+<section class="filter-panel">
+    <h3>Snel zoeken:</h3>
+    <div class="filter-buttons">
+        <button onclick="filterMenu('alles')">Alles tonen</button>
+        <button onclick="filterMenu('vega')">Alleen Vegetarisch 🌱</button>
+        <button onclick="filterMenu('vlees')">Alleen Vlees 🥩</button>
+    </div>
+</section>
+<br>
+
 <article>
     <h2>Lunchkaart (12:00 tot 15:00)</h2>
     <img src="https://placehold.co/800x300/E75C1E/ffffff?text=Lunch+Gerechten" alt="Een overzicht van onze verse lunchgerechten, waaronder belegde broodjes en salades." loading="lazy" style="width: 100%; height: auto; border-radius: 8px; margin-bottom: 15px;">
