@@ -22,92 +22,67 @@
 <br>
 
 <article>
-    <h2>Lunchkaart (12:00 tot 15:00)</h2>
-    <img src="https://placehold.co/800x300/E75C1E/ffffff?text=Lunch+Gerechten" alt="Een overzicht van onze verse lunchgerechten, waaronder belegde broodjes en salades." loading="lazy" style="width: 100%; height: auto; border-radius: 8px; margin-bottom: 15px;">
+    <h2>Voorgerechten & Snacks</h2>
+    <img src="assets/voorgerechten.png" loading="lazy" style="width: 100%; height: auto; border-radius: 8px; margin-bottom: 15px;">
     
     <details open>
-        <summary style="font-size: 1.2rem; font-weight: bold; cursor: pointer; padding: 10px 0; border-bottom: 1px solid #ccc;">Koude Broodjes & Salades</summary>
+        <summary style="font-size: 1.2rem; font-weight: bold; cursor: pointer; padding: 10px 0; border-bottom: 1px solid #ccc;">Onze Klassiekers</summary>
         <ul>
             <li class="gerecht vlees">
-                <strong>Broodje Carpaccio</strong> - € 10,50<br>
-                <em>Met truffelmayonaise, rucola, pijnboompitten en Parmezaanse kaas.</em>
-            </li>
-            <li class="gerecht vega">
-                <strong>Gezonde Salade Geitenkaas</strong> 🌱 - € 11,00<br>
-                <em>Frisse salade met warme geitenkaas, walnoten en honing-mosterddressing.</em>
-            </li>
-        </ul>
-    </details>
-
-    <details>
-        <summary style="font-size: 1.2rem; font-weight: bold; cursor: pointer; padding: 10px 0; border-bottom: 1px solid #ccc;">Warme Lunch</summary>
-        <ul>
-            <li class="gerecht vlees">
-                <strong>Broodje Pulled Pork</strong> - € 9,50<br>
-                <em>Huisgemaakt, 12 uur gegaard op eikenhout, met verse koolsla.</em>
+                <strong>BBQ Nacho's</strong> - € 9,50<br>
+                <em>Tortillachips met pulled pork, cheddar, jalapeños, BBQ-saus en zure room.</em>
             </li>
             <li class="gerecht vlees">
-                <strong>Vlam Tosti XL</strong> - € 6,50<br>
-                <em>Extra grote tosti met pittige kaas, beenham en Vlam-saus.</em>
+                <strong>Smoked Wings</strong> - € 8,50<br>
+                <em>Gerookte kippenvleugels met keuze uit: BBQ, Buffalo of Honey-Sriracha saus.</em>
             </li>
             <li class="gerecht vega">
-                <strong>Pikante Tomatensoep</strong> 🌱 - € 5,50<br>
-                <em>Huisgemaakte soep geserveerd met boerenbrood en kruidenboter.</em>
+                <strong>Uienringen</strong> 🌱 - € 6,50<br>
+                <em>Krokante uienringen met ranch dressing.</em>
             </li>
         </ul>
     </details>
 </article>
 
 <article>
-    <h2>Dinerkaart (17:00 tot 22:00)</h2>
-    <img src="https://placehold.co/800x300/8F2C00/ffffff?text=Diner+Gerechten" alt="Grote stukken vlees en verse groenten op een stoere houten serveerplank." loading="lazy" style="width: 100%; height: auto; border-radius: 8px; margin-bottom: 15px;">
+    <h2>Van de Smoker & Hoofdgerechten</h2>
+    <img src="assets/hoofdgerechten.png" loading="lazy" style="width: 100%; height: auto; border-radius: 8px; margin-bottom: 15px;">
     
+    <p><em>Alle onderstaande hoofdgerechten worden geserveerd met coleslaw en maiskolf.</em></p>
+
     <details open>
-        <summary style="font-size: 1.2rem; font-weight: bold; cursor: pointer; padding: 10px 0; border-bottom: 1px solid #ccc;">Voorgerechten</summary>
+        <summary style="font-size: 1.2rem; font-weight: bold; cursor: pointer; padding: 10px 0; border-bottom: 1px solid #ccc;">Gerookte Specialiteiten</summary>
         <ul>
             <li class="gerecht vlees">
-                <strong>Rundercarpaccio</strong> - € 12,00<br>
-                <em>Klassiek bereid met pesto, rucola en oude kaas.</em>
+                <strong>Beef Brisket</strong> - € 24,50<br>
+                <em>14 uur lang gerookt rundvlees, gekruid met onze eigen rub.</em>
             </li>
-            <li class="gerecht vega">
-                <strong>Gegrilde Halloumi</strong> 🌱 - € 10,50<br>
-                <em>Gegrilde Cypriotische kaas met een frisse tomatensalsa.</em>
+            <li class="gerecht vlees">
+                <strong>Pulled Pork</strong> - € 19,50<br>
+                <em>Langzaam gegaard varkensvlees met BBQ-saus.</em>
+            </li>
+            <li class="gerecht vlees">
+                <strong>Baby Back Ribs</strong><br>
+                <em>Halve rack • € 19,50 / Hele rack • € 28,50</em><br>
+                <em>Malse varkensribbetjes met BBQ-glazuur.</em>
+            </li>
+            <li class="gerecht vlees">
+                <strong>Smoked Chicken</strong> - € 18,50<br>
+                <em>Halve kip, langzaam gerookt met kruiden.</em>
             </li>
         </ul>
     </details>
 
     <details>
-        <summary style="font-size: 1.2rem; font-weight: bold; cursor: pointer; padding: 10px 0; border-bottom: 1px solid #ccc;">Hoofdgerechten van de Grill</summary>
+        <summary style="font-size: 1.2rem; font-weight: bold; cursor: pointer; padding: 10px 0; border-bottom: 1px solid #ccc;">BBQ Platters</summary>
         <ul>
             <li class="gerecht vlees">
-                <strong>Spareribs Sweet & Spicy</strong> - € 21,00<br>
-                <em>Onze klassieker! Malse ribs die van het bot vallen.</em>
+                <strong>The Pitmaster</strong> - € 32,50<br>
+                <em>Combinatie van brisket, pulled pork en ribs.</em>
             </li>
             <li class="gerecht vlees">
-                <strong>T-Bone Steak (500g)</strong> - € 35,00<br>
-                <em>Voor de grote trek. Perfect gegrild, inclusief dikke frites.</em>
-            </li>
-            <li class="gerecht vlees">
-                <strong>Gegrilde Kip spies</strong> - € 19,50<br>
-                <em>Malse kippendijen gemarineerd in knoflook en kruiden.</em>
-            </li>
-            <li class="gerecht vega">
-                <strong>Gegrilde Groenteschotel</strong> 🌱 - € 18,00<br>
-                <em>Seizoensgroenten met kruidenolie en gepofte aardappel.</em>
-            </li>
-        </ul>
-    </details>
-
-    <details>
-        <summary style="font-size: 1.2rem; font-weight: bold; cursor: pointer; padding: 10px 0; border-bottom: 1px solid #ccc;">Desserts</summary>
-        <ul>
-            <li class="gerecht vega">
-                <strong>Dame Blanche</strong> 🌱 - € 7,50<br>
-                <em>Vanille-ijs met warme chocoladesaus en slagroom.</em>
-            </li>
-            <li class="gerecht vega">
-                <strong>Gegrilde Ananas</strong> 🌱 - € 8,00<br>
-                <em>Met een bolletje kokosijs en karamelsaus.</em>
+                <strong>Family Feast</strong> (2-3 pers.) - € 59,50<br>
+                <em>Selectie van al onze BBQ-specialiteiten.</em>
             </li>
         </ul>
     </details>
