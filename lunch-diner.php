@@ -88,4 +88,67 @@
     </details>
 </article>
 
+<article>
+    <h2>Bijgerechten & Sauzen</h2>
+    <details>
+        <summary style="font-size: 1.2rem; font-weight: bold; cursor: pointer; padding: 10px 0; border-bottom: 1px solid #ccc;">Sides</summary>
+        <ul>
+            <li class="gerecht vega"><strong>Mac 'n Cheese</strong> - € 4,50</li>
+            <li class="gerecht vega"><strong>Geroosterde Groenten</strong> 🌱 - € 4,00</li>
+            <li class="gerecht vega"><strong>Zoete Aardappel Friet</strong> 🌱 - € 4,50</li>
+            <li class="gerecht vega"><strong>Aardappel Wedges</strong> 🌱 - € 4,00</li>
+            <li class="gerecht vega"><strong>Extra Coleslaw</strong> 🌱 - € 3,50</li>
+        </ul>
+    </details>
+
+    <details>
+        <summary style="font-size: 1.2rem; font-weight: bold; cursor: pointer; padding: 10px 0; border-bottom: 1px solid #ccc;">Sauzen (€ 1,50 per stuk)</summary>
+        <ul>
+            <li class="gerecht vega">Classic BBQ</li>
+            <li class="gerecht vega">Honey Mustard</li>
+            <li class="gerecht vega">Spicy Chipotle</li>
+            <li class="gerecht vega">Alabama White Sauce</li>
+        </ul>
+    </details>
+</article>
+
+<article>
+    <h2>Desserts</h2>
+    <details>
+        <summary style="font-size: 1.2rem; font-weight: bold; cursor: pointer; padding: 10px 0; border-bottom: 1px solid #ccc;">Zoete Afsluiters</summary>
+        <ul>
+            <li class="gerecht vega">
+                <strong>Apple Cobbler</strong> - € 7,50<br>
+                <em>Warme appelkruimel met vanille-ijs.</em>
+            </li>
+            <li class="gerecht vega">
+                <strong>Chocolate Brownie</strong> - € 6,50<br>
+                <em>Met pecannoten en karamelsaus.</em>
+            </li>
+            <li class="gerecht vega">
+                <strong>Banana Foster</strong> - € 7,50<br>
+                <em>Gekarameliseerde banaan met rum en vanille-ijs.</em>
+            </li>
+        </ul>
+    </details>
+</article>
+
+<article>
+    <h2>Dranken</h2>
+    <details>
+        <summary style="font-size: 1.2rem; font-weight: bold; cursor: pointer; padding: 10px 0; border-bottom: 1px solid #ccc;">Fris, Bier & Wijn</summary>
+        <ul>
+            <li><strong>Frisdrank</strong> (Cola, Sprite, Fanta, Ice Tea) - € 2,75</li>
+            <li><strong>Tap Pils</strong> - € 3,00</li>
+            <li><strong>Speciaal Bier</strong> - vanaf € 4,50</li>
+            <li><strong>Huiswijn</strong> (Glas) - € 4,50</li>
+            <li><strong>Fles Huiswijn</strong> - € 22,50</li>
+        </ul>
+    </details>
+</article>
+
+<footer style="margin-top: 20px; padding: 10px; border-top: 1px solid #ccc;">
+    <p><em>Heeft u een allergie? Meld het ons. Prijzen zijn inclusief BTW.</em></p>
+</footer>
+
 <?php include 'includes/footer.php'; ?>
