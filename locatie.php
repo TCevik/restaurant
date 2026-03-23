@@ -23,7 +23,7 @@
         Telefoon: 079 - 123 45 67<br>
         Email: info@vlamenvlees.nl
     </address>
-    
+    <a href="https://www.google.com/maps/place/Dorpsstraat+1,+2712+AA+Zoetermeer/@52.0573012,4.4903674,16z/data=!3m1!4b1!4m6!3m5!1s0x47c5c92ea62ed313:0x7751c4e004a71efd!8m2!3d52.0573012!4d4.4929423!16s%2Fg%2F11l5czjfdd?entry=ttu&g_ep=EgoyMDI2MDMxOC4xIKXMDSoASAFQAw%3D%3D"><button>Locatie restaurant bezoeken</button></a>
 </article>
 
 <?php include 'includes/footer.php'; ?>
