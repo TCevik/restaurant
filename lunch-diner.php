@@ -26,7 +26,7 @@
 <!-- Gerechten secties -->
 <article>
     <h2>Voorgerechten & Snacks</h2>
-    <img src="assets/voorgerechten.png" loading="lazy" style="width: 100%; height: auto; border-radius: 8px; margin-bottom: 15px;">
+    <img src="assets/voorgerechten.png" alt="Heerlijke voorgerechten en snacks" loading="lazy" style="width: 100%; height: auto; border-radius: 8px; margin-bottom: 15px;">
     
     <details open>
         <summary style="font-size: 1.2rem; font-weight: bold; cursor: pointer; padding: 10px 0; border-bottom: 1px solid #ccc;">Onze Klassiekers</summary>
@@ -49,7 +49,7 @@
 
 <article>
     <h2>Van de Smoker & Hoofdgerechten</h2>
-    <img src="assets/hoofdgerechten.png" loading="lazy" style="width: 100%; height: auto; border-radius: 8px; margin-bottom: 15px;">
+    <img src="assets/hoofdgerechten.png" alt="Malse hoofdgerechten vers van de smoker" loading="lazy" style="width: 100%; height: auto; border-radius: 8px; margin-bottom: 15px;">
     
     <p><em>Alle onderstaande hoofdgerechten worden geserveerd met coleslaw en maiskolf.</em></p>
 
