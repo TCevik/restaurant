@@ -23,6 +23,7 @@
         Telefoon: 079 - 123 45 67<br>
         Email: info@vlamenvlees.nl
     </address>
+    
 </article>
 
 <?php include 'includes/footer.php'; ?>
