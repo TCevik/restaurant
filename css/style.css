@@ -240,3 +240,35 @@ input {
     border: 2px solid #ccc;
     text-align: center;
 }
+
+/* Verberg slides standaard */
+.slide {
+  display: none;
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Fade animatie */
+.fade {
+  animation: fade 1.5s;
+}
+
+@keyframes fade {
+  from { opacity: .4; } 
+  to { opacity: 1; }
+}
+
+#slideshow-container {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+#slides-wrapper {
+  margin: 0;
+  background-color: black;
+  box-shadow: 0px 5px 20px 5px rgba(0,0,0,0.5);
+  border-radius: 8px;
+  overflow: hidden;
+}

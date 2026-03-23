@@ -6,7 +6,15 @@ include 'includes/header.php';
 <article style="grid-column: 1 / -1;">
     <h1>Welkom bij Vlam en Vlees</h1>
     <p>De beste grill van Zoetermeer. Geniet van authentiek bereide vleesgerechten, rechtstreeks van het vuur. Bereid je voor op een smaaksensatie!</p>
-    <img src="assets/restaurant-binnenkant.png" alt="Een gezellige foto van ons restaurant vol met blije gasten">
+    
+    <section id="slideshow-container">
+        <figure id="slides-wrapper">
+            <img class="slide fade" src="assets/lounge.png" alt="Bar Lounge">
+            <img class="slide fade" src="assets/restaurant-binnenkant.png" alt="Restaurant binnenkant">
+            <img class="slide fade" src="assets/voorgerechten.png" alt="Onze gerechten">
+        </figure>
+    </section>
+</article>
 </article>
 
 <article>

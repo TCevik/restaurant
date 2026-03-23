@@ -8,5 +8,6 @@
     <script src="js/accessibility.js"></script>
     <script src="js/menu-filter.js"></script>
     <script src="js/reserveren.js"></script>
+    <script src="js/slideshow.js"></script>
 </body>
 </html>
