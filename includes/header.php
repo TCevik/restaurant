@@ -18,7 +18,12 @@
                 <img src="assets/logo_kleur_vlam_en_vlees.png" alt="Het logo van Vlam en Vlees Zoetermeer">
             </a>
         </div>
-        <nav>
+        <button class="hamburger" id="hamburger" aria-label="Menu openen">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav id="nav-menu">
             <ul>
                 <li><a href="index.php">Home</a></li>
                 <li><a href="lunch-diner.php">Lunch & Diner</a></li>
@@ -28,5 +33,20 @@
             </ul>
         </nav>
     </header>
+    <!-- Script voor het hamburger menu -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const hamburger = document.getElementById("hamburger");
+            const navMenu = document.getElementById("nav-menu");
+            
+            if (hamburger && navMenu) {
+                hamburger.addEventListener("click", function () {
+                    const isOpen = hamburger.classList.toggle("open");
+                    navMenu.classList.toggle("active");
+                    hamburger.setAttribute("aria-expanded", isOpen);
+                });
+            }
+        });
+    </script>
     <!-- De main tag begint hier en sluit in footer.php, dit is semantisch correct -->
     <main>

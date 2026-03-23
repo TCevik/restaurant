@@ -72,9 +72,9 @@ header, footer {
 
 header {
     display: flex;
-    flex-direction: column; /* Op mobiel onder elkaar */
+    flex-wrap: wrap;
     align-items: center;
-    text-align: center;
+    justify-content: space-between;
 }
 
 header img {
@@ -82,12 +82,53 @@ header img {
     height: auto;
 }
 
+/* Hamburger knop styling */
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+.hamburger span {
+    width: 100%;
+    height: 3px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+    transform-origin: center;
+}
+/* Animatie classes wanneer geopend */
+.hamburger.open span:nth-child(1) { transform: translateY(9px) rotate(45deg); }
+.hamburger.open span:nth-child(2) { opacity: 0; }
+.hamburger.open span:nth-child(3) { transform: translateY(-9px) rotate(-45deg); }
+
+/* Voorkomen dat de globale button hover de knop wit maakt */
+button.hamburger:hover, button.hamburger:focus, button.hamburger:active {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+nav {
+    width: 100%;
+    display: none; /* Verborgen op mobiel per default */
+}
+nav.active {
+    display: block; /* Zichtbaar als menu actief is */
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
     display: flex;
-    flex-wrap: wrap; /* Zorgt dat het netjes op de volgende regel gaat als het niet past */
-    justify-content: center;
+    flex-direction: column; /* Op mobiel onder elkaar */
+    align-items: center;
     gap: 15px;
     margin-top: 15px;
 }
@@ -96,6 +137,8 @@ nav a {
     color: #ffffff;
     text-decoration: none;
     font-weight: bold;
+    padding: 10px; /* Meer tap-ruimte op mobiel */
+    display: block;
 }
 
 nav a:hover {
@@ -106,9 +149,23 @@ nav a:hover {
     header {
         flex-direction: row; /* Op desktop naast elkaar */
         justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+    .hamburger {
+        display: none; /* Verberg hamburger op desktop */
+    }
+    nav {
+        display: block !important; /* Altijd zichtbaar op desktop */
+        width: auto;
     }
     nav ul {
+        flex-direction: row;
         margin-top: 0;
+        gap: 20px;
+    }
+    nav a {
+        padding: 0; /* Reset padding voor desktop */
+        display: inline;
     }
 }
 
