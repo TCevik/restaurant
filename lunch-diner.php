@@ -4,22 +4,22 @@
 <section class="accessibility-panel">
     <h2>Digitaal Toegankelijk Menu</h2>
     <p>Pas de website aan naar jouw wensen met de onderstaande knoppen.</p>
-    <div class="toegankelijkheid-knoppen">
+    <section class="toegankelijkheid-knoppen">
         <button id="btn-dark-mode">Light / Dark Modus</button>
         <button id="btn-large-text">Lettertype Vergroten</button>
         <button id="btn-high-contrast">Verhoogd Contrast</button>
         <button id="btn-highlight-links">Links markeren</button>
-    </div>
+    </section>
 </section>
 
 <!-- Filter opties voor het menu -->
 <section class="filter-panel">
     <h3>Snel zoeken:</h3>
-    <div class="filter-buttons">
+    <section class="filter-buttons">
         <button data-filter="alles" class="btn-filter">Alles tonen</button>
         <button data-filter="vega" class="btn-filter">Alleen Vegetarisch 🌱</button>
         <button data-filter="vlees" class="btn-filter">Alleen Vlees 🥩</button>
-    </div>
+    </section>
 </section>
 <br>
 

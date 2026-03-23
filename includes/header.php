@@ -11,11 +11,11 @@
 </head>
 <body>
     <header>
-        <div class="logo">
+        <section class="logo">
             <a href="index.php">
                 <img src="assets/logo_kleur_vlam_en_vlees.png" alt="Het logo van Vlam en Vlees Zoetermeer">
             </a>
-        </div>
+        </section>
         <button class="hamburger" id="hamburger" aria-label="Menu openen">
             <span></span>
             <span></span>
