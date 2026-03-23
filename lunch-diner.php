@@ -13,7 +13,7 @@
 </section>
 
 <!-- Filter opties voor het menu -->
-<section class="filter-panel">
+<section class="filter-panel"> 
     <h3>Snel zoeken:</h3>
     <section class="filter-buttons">
         <button data-filter="alles" class="btn-filter">Alles tonen</button>
