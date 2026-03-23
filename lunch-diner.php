@@ -5,10 +5,17 @@
     <h2>Digitaal Toegankelijk Menu</h2>
     <p>Pas de website aan naar jouw wensen met de onderstaande knoppen.</p>
     <section class="toegankelijkheid-knoppen">
+<<<<<<< HEAD
         <button onclick="toggleDarkMode()">Light / Dark Modus</button>
         <button onclick="toggleLargeText()">Lettertype Vergroten</button>
         <button onclick="toggleHighContrast()">Verhoogd Contrast</button>
         <button onclick="toggleHighlightLinks()">Links markeren</button>
+=======
+        <button id="btn-dark-mode">Light / Dark Modus</button>
+        <button id="btn-large-text">Lettertype Vergroten</button>
+        <button id="btn-high-contrast">Verhoogd Contrast</button>
+        <button id="btn-highlight-links">Links markeren</button>
+>>>>>>> e122c82be98940b8856bfe3167f780709b1810f6
     </section>
 </section>
 
@@ -16,9 +23,15 @@
 <section class="filter-panel">
     <h3>Snel zoeken:</h3>
     <section class="filter-buttons">
+<<<<<<< HEAD
         <button onclick="filterMenu('alles')">Alles tonen</button>
         <button onclick="filterMenu('vega')">Alleen Vegetarisch 🌱</button>
         <button onclick="filterMenu('vlees')">Alleen Vlees 🥩</button>
+=======
+        <button data-filter="alles" class="btn-filter">Alles tonen</button>
+        <button data-filter="vega" class="btn-filter">Alleen Vegetarisch 🌱</button>
+        <button data-filter="vlees" class="btn-filter">Alleen Vlees 🥩</button>
+>>>>>>> e122c82be98940b8856bfe3167f780709b1810f6
     </section>
 </section>
 <br>

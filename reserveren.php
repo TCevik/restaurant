@@ -6,7 +6,7 @@
     <!-- Reserveringsformulier -->
     <form id="reserveerForm">
         <label for="naam">Jouw naam:</label><br>
-        <input type="text" id="naam" name="naam" required placeholder="Bijv. Tamer Çevik"><br>
+        <input type="text" id="naam" name="naam" required placeholder="Bijv. bart"><br>
 
         <label for="email">E-mailadres:</label><br>
         <input type="email" id="email" name="email" required placeholder="jouw@email.nl"><br>
