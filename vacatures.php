@@ -5,6 +5,7 @@
     <p>We zijn altijd op zoek naar enthousiast personeel. Bekijk onze openstaande vacatures hieronder.</p>
 </article>
 
+<!-- Vacatures overzicht -->
 <article>
     <h2>Grillmeester / Zelfstandig werkend kok (Fulltime)</h2>
     <p>Weet jij precies hoe je het perfecte stuk vlees moet bereiden? Ben jij niet bang voor hitte en stressbestendig? Dan zoeken wij jou!</p>

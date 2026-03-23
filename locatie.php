@@ -15,7 +15,6 @@
 
 <article>
     <h1>Locatie & Contact</h1>
-    <!-- Semantisch address element -->
     <address>
         <strong>Vlam en Vlees Zoetermeer</strong><br>
         Dorpsstraat 1<br>

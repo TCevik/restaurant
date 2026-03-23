@@ -1,5 +1,6 @@
 <?php include 'includes/header.php'; ?>
 
+<!-- Toegankelijkheid opties -->
 <section class="accessibility-panel">
     <h2>Digitaal Toegankelijk Menu</h2>
     <p>Pas de website aan naar jouw wensen met de onderstaande knoppen.</p>
@@ -11,6 +12,7 @@
     </div>
 </section>
 
+<!-- Filter opties voor het menu -->
 <section class="filter-panel">
     <h3>Snel zoeken:</h3>
     <div class="filter-buttons">
@@ -21,6 +23,7 @@
 </section>
 <br>
 
+<!-- Gerechten secties -->
 <article>
     <h2>Voorgerechten & Snacks</h2>
     <img src="assets/voorgerechten.png" loading="lazy" style="width: 100%; height: auto; border-radius: 8px; margin-bottom: 15px;">

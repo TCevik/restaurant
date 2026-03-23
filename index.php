@@ -1,13 +1,11 @@
 <?php 
-// Header inladen via PHP
+// Header
 include 'includes/header.php'; 
 ?>
 
-<!-- Semantische elementen zoals article gebruikt -->
 <article style="grid-column: 1 / -1;">
     <h1>Welkom bij Vlam en Vlees</h1>
     <p>De beste grill van Zoetermeer. Geniet van authentiek bereide vleesgerechten, rechtstreeks van het vuur. Bereid je voor op een smaaksensatie!</p>
-    <!-- Afbeelding met duidelijke ALT tekst -->
     <img src="assets/restaurant-binnenkant.png" alt="Een gezellige foto van ons restaurant vol met blije gasten">
 </article>
 
@@ -24,6 +22,6 @@ include 'includes/header.php';
 </article>
 
 <?php 
-// Footer inladen via PHP
+// Footer
 include 'includes/footer.php'; 
 ?>

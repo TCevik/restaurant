@@ -3,7 +3,7 @@
 <article style="grid-column: 1 / -1;">
     <h1>Tafel Reserveren</h1>
     <p>Vul het onderstaande formulier in om zeker te zijn van een plekje aan tafel.</p>
-
+    <!-- Reserveringsformulier -->
     <form id="reserveerForm">
         <label for="naam">Jouw naam:</label><br>
         <input type="text" id="naam" name="naam" required placeholder="Bijv. Tamer Çevik"><br>
