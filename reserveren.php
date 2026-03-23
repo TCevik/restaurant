@@ -14,6 +14,9 @@
         <label for="datum">Kies een datum:</label><br>
         <input type="date" id="datum" name="datum" required><br>
 
+        <label for="tijd">Kies een tijd:</label><br>
+        <input type="time" id="tijd" name="tijd" required><br>
+
         <label for="personen">Aantal personen:</label><br>
         <input type="number" id="personen" name="personen" min="1" max="20" required value="2"><br>
 
