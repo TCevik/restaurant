@@ -53,6 +53,7 @@
     
     <p><em>Alle onderstaande hoofdgerechten worden geserveerd met coleslaw en maiskolf.</em></p>
 
+    <!-- Elke summary geeft het menu een catagorie aan waarmee elke gerecht een class krijgt die overeenkomt met de filter knoppen. -->
     <details open>
         <summary style="font-size: 1.2rem; font-weight: bold; cursor: pointer; padding: 10px 0; border-bottom: 1px solid #ccc;">Gerookte Specialiteiten</summary>
         <ul>
@@ -76,6 +77,7 @@
         </ul>
     </details>
 
+    <!-- Elke summary geeft het menu een catagorie aan waarmee elke gerecht een class krijgt die overeenkomt met de filter knoppen. -->
     <details>
         <summary style="font-size: 1.2rem; font-weight: bold; cursor: pointer; padding: 10px 0; border-bottom: 1px solid #ccc;">BBQ Platters</summary>
         <ul>
@@ -94,9 +96,11 @@
 <article>
     <h2>Bijgerechten & Sauzen</h2>
     <details>
+
+    <!-- Elke summary geeft het menu een catagorie aan waarmee elke gerecht een class krijgt die overeenkomt met de filter knoppen. -->
         <summary style="font-size: 1.2rem; font-weight: bold; cursor: pointer; padding: 10px 0; border-bottom: 1px solid #ccc;">Sides</summary>
         <ul>
-            <li class="gerecht vega"><strong>Mac 'n Cheese</strong> - € 4,50</li>
+            <li class="gerecht vega"><strong>Mac 'n Cheese</strong> 🌱 - € 4,50</li>
             <li class="gerecht vega"><strong>Geroosterde Groenten</strong> 🌱 - € 4,00</li>
             <li class="gerecht vega"><strong>Zoete Aardappel Friet</strong> 🌱 - € 4,50</li>
             <li class="gerecht vega"><strong>Aardappel Wedges</strong> 🌱 - € 4,00</li>
@@ -105,6 +109,8 @@
     </details>
 
     <details>
+
+    <!-- Elke summary geeft het menu een catagorie aan waarmee elke gerecht een class krijgt die overeenkomt met de filter knoppen. -->
         <summary style="font-size: 1.2rem; font-weight: bold; cursor: pointer; padding: 10px 0; border-bottom: 1px solid #ccc;">Sauzen (€ 1,50 per stuk)</summary>
         <ul>
             <li class="gerecht vega">Classic BBQ</li>
@@ -118,6 +124,8 @@
 <article>
     <h2>Desserts</h2>
     <details>
+
+    <!-- Elke summary geeft het menu een catagorie aan waarmee elke gerecht een class krijgt die overeenkomt met de filter knoppen. -->
         <summary style="font-size: 1.2rem; font-weight: bold; cursor: pointer; padding: 10px 0; border-bottom: 1px solid #ccc;">Zoete Afsluiters</summary>
         <ul>
             <li class="gerecht vega">
@@ -139,6 +147,8 @@
 <article>
     <h2>Dranken</h2>
     <details>
+
+    
         <summary style="font-size: 1.2rem; font-weight: bold; cursor: pointer; padding: 10px 0; border-bottom: 1px solid #ccc;">Fris, Bier & Wijn</summary>
         <ul>
             <li><strong>Frisdrank</strong> (Cola, Sprite, Fanta, Ice Tea) - € 2,75</li>

@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
+    // Wacht tot de pagina volledig geladen is voordat we beginnen met het instellen van de filters
     const filterButtons = document.querySelectorAll('.btn-filter');
     
     if (filterButtons.length > 0) {
@@ -13,6 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
     function filterMenu(keuze) {
         const alleGerechten = document.querySelectorAll('.gerecht');
         
+        // Ga door elk gerecht en toon/verberg het gebaseerd op de gekozen filter
         alleGerechten.forEach(gerecht => {
             if (keuze === 'alles') {
                 gerecht.style.display = 'list-item';
