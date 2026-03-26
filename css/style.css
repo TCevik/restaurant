@@ -7,7 +7,7 @@
     --text-color: #333333;   /* Standaard tekstkleur */
 }
 
-/* Variabelen voor de toegankelijkheid (Light/Dark modus & Hoog Contrast) */
+/* Variabelen voor de toegankelijkheid (Light/Dark modus & hoog contrast) */
 .dark-mode {
     --body-bg: #222222;
     --text-color: #ffffff;
@@ -41,7 +41,7 @@ body {
     min-height: 100vh;
 }
 
-/* Media query voor Tablet en Desktop */
+/* Responsief voor Tablet en Desktop */
 @media (min-width: 768px) {
     body {
         /* Op desktop is het lettertype Average Sans volgens het ontwerp */
@@ -222,7 +222,7 @@ button:hover, input[type="submit"]:hover {
     background-color: #ffffff;
     color: var(--accent-color);
 }
-
+/* Stijl voor tekstinvoer */
 input {
     padding: 8px;
     margin-bottom: 10px;
@@ -241,7 +241,8 @@ input {
     text-align: center;
 }
 
-/* Verberg slides standaard */
+/*------ SLIDESHOW ------*/
+/* Verberg slides */
 .slide {
   display: none;
   width: 100%;
