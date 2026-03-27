@@ -22,6 +22,6 @@
 
         <input type="submit" value="Reserveer Tafel">
     </form>
-</article>
+</article> 
 
 <?php include 'includes/footer.php'; ?>
