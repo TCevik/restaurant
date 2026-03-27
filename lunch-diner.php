@@ -22,7 +22,7 @@
     </section>
 </section>
 <br>
-
+ 
 <!-- Gerechten secties -->
 <article>
     <h2>Voorgerechten & Snacks</h2>
