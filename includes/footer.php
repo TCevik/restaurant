@@ -1,5 +1,4 @@
 </main>
-    <!-- Footer -->
     <footer>
         <p>&copy; <?php echo date("Y"); ?> Vlam en Vlees Zoetermeer.</p>
         <p>Gemaakt door Tamer, Max en Brendan.</p>
