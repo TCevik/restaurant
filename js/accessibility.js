@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
             document.body.classList.toggle('dark-mode');
         });
     }
-
+    
     if (btnLargeText) {
         btnLargeText.addEventListener('click', function() {
             document.body.classList.toggle('large-text');
