@@ -15,7 +15,6 @@
     </ul>
     <button>Solliciteren</button>
 </article>
-
 <article>
     <h2>Medewerker Bediening (Parttime / Weekend)</h2>
     <p>Voor in het weekend zoeken wij nog gezellige vlotte mensen voor in de bediening. Minimumleeftijd is 16 jaar.</p>
