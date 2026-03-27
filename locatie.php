@@ -12,7 +12,6 @@
         <li>Zondag: 14:00 - 21:00</li>
     </ul>
 </article>
-
 <article>
     <h1>Locatie & Contact</h1>
     <address>
