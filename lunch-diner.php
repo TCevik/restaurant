@@ -1,6 +1,6 @@
 <?php include 'includes/header.php'; ?>
 
-<!-- Toegankelijkheid opties -->
+<!-- Toegankelijkheid opties --> 
 <section class="accessibility-panel">
     <h2>Digitaal Toegankelijk Menu</h2>
     <p>Pas de website aan naar jouw wensen met de onderstaande knoppen.</p>
