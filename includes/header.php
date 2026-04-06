@@ -31,4 +31,4 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main> 
